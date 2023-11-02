@@ -1,5 +1,6 @@
 /** CSS STYLE **/
 @font-face {
+  font-weight: 400;
   font-family: Neucha;
   src: url('../fonts/Neucha/Neucha-Regular.ttf');
 }
@@ -35,10 +36,11 @@ a {
 body {
   margin: 0;
   padding: 0;
-  
+
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.6em;
+  font-style: normal;
   color: var(--dark);
 
   overflow-x: hidden;
@@ -98,13 +100,13 @@ h3 {
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
+  z-index: 1;
 }
 
-header h1 {
+.container h1 {
+  position: relative;
   z-index: 2;
 }
-
-/* header */
 
 .header-img {
   position: absolute;
@@ -117,11 +119,48 @@ header h1 {
 
 .section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: stretch;
 }
 
 .section-block {
-  width: 540px;
+  width: 100%;
+}
+
+.section-img {
+  width: 578px;
+  height: 100%;
+  background-color: var(--white);
+  box-shadow: 0 16px 32px 0 rgba(0 0 0 / 15%)
+}
+
+.section-txt {
+ font-family: Neucha, sans-serif;
+ font-size: 34px;
+ line-height: 1.2;
+}
+
+.section-txt-h::before {
+  display: block;
+  content: 'Когнитивные икажения';
+
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--semi-transparent-dark);
+}
+
+.tittle {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  padding: 5px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+
 }
 
 .btn {
@@ -139,10 +178,10 @@ header h1 {
 }
 
 .btn:hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
 }
 
-.tittle {
+.video-tittle {
   margin-bottom: 30px;
 }
 
@@ -204,7 +243,6 @@ header h1 {
   font-size: 52px;
 }
 
-
 /* Atomic */
 
 .primary-color {
@@ -223,6 +261,14 @@ header h1 {
   background-color: var(--primary-dark);
 }
 
+.bg-gray {
+  background-color: var(--light);
+}
+
+.bg-brown {
+  background-color: var(--brown);
+}
+
 .bg-white {
   background-color: var(--white);
 }
@@ -233,6 +279,10 @@ header h1 {
 
 .mt-185 {
   margin-top: 185px;
+}
+
+.mr-30 {
+  margin-right: 30px;
 }
 
 .pt-200 {
