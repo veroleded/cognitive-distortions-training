@@ -210,15 +210,16 @@ h3 {
 .card-group {
   height: 691px;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 93px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: stretch;
 }
 
 .card-item {
-  width: 31%;
-  margin: 10px;
+  width: 350px;
+  margin-bottom: 20px;
 }
 
 .nav-item {
