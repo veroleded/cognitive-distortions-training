@@ -210,7 +210,7 @@ h3 {
 .card-group {
   height: 691px;
   width: 100%;
-  margin-top: 93px;
+  margin-top: 86px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -218,20 +218,21 @@ h3 {
 
 .card-item {
   width: 350px;
-
-  padding: 24px;
   margin: 10px;
 }
 
 .nav-item {
   background-color: var(--light);
+  padding: 24px;
 
   transition: all 0.2s linear;
 }
 
 .number {
-  font-size: 64px;
   margin-bottom: 40px;
+
+  font-family: Neucha, sans-serif;
+  font-size: 64px;
   line-height: 1;
 }
 
