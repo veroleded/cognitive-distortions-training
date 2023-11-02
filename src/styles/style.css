@@ -140,14 +140,10 @@ h3 {
  line-height: 1.2;
 }
 
-.section-txt-h::before {
-  display: block;
-  content: 'Когнитивные икажения';
-
+.subtittle {
   font-size: 24px;
   font-weight: 400;
   line-height: 1.2;
-  color: var(--semi-transparent-dark);
 }
 
 .tittle {
@@ -245,6 +241,8 @@ h3 {
 
 /* Atomic */
 
+/* Color */
+
 .primary-color {
   color: var(--primary);
 }
@@ -252,6 +250,20 @@ h3 {
 .white-color {
   color: var(--white);
 }
+
+.brown-color {
+  color: var(--brown);
+}
+
+.gray-color {
+  color: var(--semi-transparent-dark);
+}
+
+.transparent-white-color {
+  color: var(--semi-transparent-white);
+}
+
+/* bg-color */
 
 .bg-light {
   background-color: var(--light);
