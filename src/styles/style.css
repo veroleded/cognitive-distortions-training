@@ -94,14 +94,14 @@ h3 {
 .container {
   position: relative;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
   max-width: 1110px;
-  min-height: 914px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+header h1 {
+  z-index: 2;
 }
 
 /* header */
@@ -110,6 +110,7 @@ h3 {
   position: absolute;
   top: 50px;
   right: -270px;
+  z-index: 0;
 
   height: 525px;
 }
@@ -141,6 +142,25 @@ h3 {
   background-color: #EA7600;
 }
 
+.tittle {
+  margin-bottom: 30px;
+}
+
+.video-container {
+  position: relative;
+  top: 100px;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  text-align: center;
+}
+
+.video {
+  position: relative;
+  margin: auto;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
 
 /* Atomic */
 
@@ -152,6 +172,14 @@ h3 {
   background-color: var(--light);
 }
 
+.bg-primary-dark {
+  background-color: var(--primary-dark);
+}
+
 .mt-20 {
   margin-top: 20px;
+}
+
+.mt-185 {
+  margin-top: 185px;
 }
