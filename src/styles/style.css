@@ -222,7 +222,7 @@ h3 {
 }
 
 .nav-item {
-  background-color: var(--white);
+  background-color: var(--light);
 
   transition: all 0.2s linear;
 }
