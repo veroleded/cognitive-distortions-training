@@ -224,6 +224,8 @@ h3 {
 .nav-item {
   display: flex;
   flex-direction: column;
+  justify-content: start;
+  align-items: start;
 
   background-color: var(--light);
   padding: 24px;
@@ -246,11 +248,6 @@ h3 {
 
 .nav-item:hover h3 {
   color: var(--white);
-}
-
-.card-item-tittle {
-  text-wrap: nowrap;
-  padding: 0;
 }
 
 .item-tittle {
