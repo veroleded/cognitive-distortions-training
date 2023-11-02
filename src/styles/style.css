@@ -189,11 +189,15 @@ h3 {
 
 .video-container {
   position: relative;
-  top: 100px;
+  top: 107px;
   padding-top: 0;
   padding-bottom: 0;
 
   text-align: center;
+}
+
+.video-tittle p {
+  margin-top: 23px;
 }
 
 .video {
