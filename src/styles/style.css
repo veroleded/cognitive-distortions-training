@@ -189,7 +189,7 @@ h3 {
 
 .video-container {
   position: relative;
-  top: 100px;
+  top: 107px;
   padding-top: 0;
   padding-bottom: 0;
 
@@ -208,6 +208,7 @@ h3 {
 }
 
 .card-group {
+  margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
