@@ -208,13 +208,12 @@ h3 {
 }
 
 .card-group {
-  height: 691px;
+  /* height: 691px; */
   width: 100%;
   margin-top: 93px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: stretch;
 }
 
 .card-item {
@@ -223,6 +222,9 @@ h3 {
 }
 
 .nav-item {
+  display: flex;
+  flex-direction: column;
+
   background-color: var(--light);
   padding: 24px;
 
