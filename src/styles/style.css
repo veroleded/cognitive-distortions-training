@@ -197,7 +197,7 @@ h3 {
 }
 
 .video-tittle p {
-  margin-top: 23px;
+  margin-top: 30px;
 }
 
 .video {
@@ -211,7 +211,7 @@ h3 {
   margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .card-item {
