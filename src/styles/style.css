@@ -87,7 +87,7 @@ h3 {
 }
 
 .wrapper {
-  width: 1440px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   height: 100%;
@@ -101,6 +101,8 @@ h3 {
   padding-top: 100px;
   padding-bottom: 100px;
   z-index: 1;
+
+  overflow: hidden;
 }
 
 .container h1 {
