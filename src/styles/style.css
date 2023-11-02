@@ -98,7 +98,6 @@ h3 {
   position: relative;
 
   max-width: 1110px;
-  min-height: 914px;
   margin: 0 auto;
   padding-top: 107px;
   padding-bottom: 100px;
@@ -127,6 +126,7 @@ h3 {
 
 .section-block {
   width: 100%;
+  line-height: 1.6;
 }
 
 .section-img {
