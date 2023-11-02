@@ -100,7 +100,7 @@ h3 {
   max-width: 1110px;
   min-height: 914px;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 107px;
   padding-bottom: 100px;
   z-index: 1;
 }
@@ -112,7 +112,7 @@ h3 {
 
 .header-img {
   position: absolute;
-  top: 50px;
+  top: 55px;
   right: -270px;
   z-index: 0;
 
@@ -386,8 +386,8 @@ h3 {
   margin-top: 20px;
 }
 
-.mt-185 {
-  margin-top: 185px;
+.mt-175 {
+  margin-top: 177px;
 }
 
 .mr-30 {
