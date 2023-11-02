@@ -210,14 +210,15 @@ h3 {
 .card-group {
   height: 691px;
   width: 100%;
-  margin-top: 107px;
+  margin-top: 86px;
+  padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .card-item {
-  width: 350px;
+  width: 31%;
   margin: 10px;
 }
 
@@ -404,4 +405,8 @@ h3 {
 
 .pt-200 {
   padding-top: 207px;
+}
+
+.pt-107 {
+  padding-top: 107px;
 }
