@@ -233,6 +233,10 @@ h3 {
   transition: all 0.2s linear;
 }
 
+.nav-item p {
+  margin-bottom: 0;
+}
+
 .number {
   margin-bottom: 40px;
 
